@@ -1,0 +1,22 @@
+{
+  "name": "gemini-function-calling",
+  "version": "1.0.0",
+  "description": "Finding Recipes from BudgetBytes with the help of Gemini",
+  "main": "src/main.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Brake",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.3.1",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  }
+}
